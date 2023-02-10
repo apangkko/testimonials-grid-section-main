@@ -27,6 +27,9 @@ html {
 /* ---------- Styles ---------- */
 
 body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     background-color: var(--clr-lightGrayishBlue);
     padding: 4.5rem 1rem;
     font-size: 0.813rem;
@@ -36,7 +39,6 @@ main {
     display: grid;
     gap: 1.5rem;
     max-width: 1110px;
-    min-height: 100vh;
     margin-inline: auto;
 }
 
